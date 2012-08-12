@@ -1,0 +1,13 @@
+{
+  "name": "filewatch",
+  "version": "0.0.1",
+  "description": "watches files and runs a script when there is changes",
+  "keywords": [],
+  "author": "Matt Mueller <mattmuelle@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
+}
