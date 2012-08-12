@@ -1,7 +1,10 @@
-
 # filewatch
 
   watches files and runs a script when there is changes
+
+## Usage
+
+    filewatch `find lib -name '*.js'` "echo changed!"
 
 ## License 
 

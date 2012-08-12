@@ -4,10 +4,15 @@
   "description": "watches files and runs a script when there is changes",
   "keywords": [],
   "author": "Matt Mueller <mattmuelle@gmail.com>",
-  "dependencies": {},
+  "dependencies": {
+    "debug" : "*"
+  },
   "devDependencies": {
     "mocha": "*",
     "should": "*"
+  },
+  "bin": {
+    "filewatch" : "bin/filewatch"
   },
   "main": "index"
 }

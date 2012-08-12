@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var files = process.argv.slice(2),
+    cmd = files.pop(),
+    Watch = require('../');
+
+var watcher = new Watch(files, {}, cmd);
+
+watcher.start();
