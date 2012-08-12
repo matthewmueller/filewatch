@@ -1,6 +1,6 @@
 # filewatch
 
-  watches files and runs a script when there is changes
+  watches some files, executing a command when they change.
 
 ## Usage
 
